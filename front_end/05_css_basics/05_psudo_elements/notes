@@ -1,0 +1,5 @@
+every element has the property of activting before and after
+to activet the property we need to write   
+-> p::before{
+    content: ;
+}
