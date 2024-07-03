@@ -1,0 +1,14 @@
+.elm#elm$*3 -> this will print 3 elm with proper id
+
+display flex divide the elemnts in rows and coloumns but there is a catch
+display flex is a single dimension property
+it can only work in only in one direction
+flex direction is in rows
+we can change it to coloumns
+
+
+in display grid we can control both row and coulumn at the same time
+after applying display grid to the parent elemnet it will automatically adjust the elments on it's own
+
+
+on child justify-self works
