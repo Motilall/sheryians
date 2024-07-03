@@ -1,0 +1,27 @@
+units = px % vw vh em rem
+
+1px = 1pixel on the screen
+we can replace px with vw
+
+% -> it will take wiht respect to screen(screen is 100%)
+when i change the screen the element will take size respect to screen % ration ( when i change the screen my element will also change)
+
+
+% will take value from it's parent 
+but
+the vh and vw will take value with respective to it's screen
+
+
+em depends on the elemets fron size and if we give this value to parent then it's child will also get affected
+em = 16px 
+if the font-size increases then the em will increase and if the font-size decrease then the em will decrease
+
+
+rem = is root element
+1rem = 16px
+
+rem is for complete html and em will take value with respect to the parent element
+
+
+max-width -> is the value from which you can not go further
+min-width -> is the value from wich you can not go below
