@@ -1,0 +1,6 @@
+fonts are mainly of two types 1> serif and 2> san-serif
+
+san-serif are the fonts which goes on same width(monsterrat)
+serif are the fonts which have sharpe fotns edges
+
+text-align: justify; it will not leave any space, it will automatically adjust it's gaps
