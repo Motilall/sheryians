@@ -9,3 +9,42 @@ html,body{
     width: 100%;
 }
 
+p{
+    position: relative;
+    width: fit-content;
+}
+/* p::before{
+    top: 50%;
+    background-color: red;
+    content: '>';
+    width: 100%;
+    height: 3px;
+    position: absolute;
+}
+
+p::after{
+    content: '<';
+} */
+
+
+h1::first-line{
+    color: red;
+}
+
+h1::selection{
+    background-color: aqua;
+    color: rgb(46, 41, 44);
+}
+
+h1:hover{
+    background-color: green;
+}
+
+input:focus{
+    background-color: yellowgreen;
+}
+
+p:nth-child(2n){
+    color: red;
+    font-size: 100px;
+}
