@@ -12,8 +12,8 @@ display✅
 position✅
 background✅
 flex✅
-pseudo-elements
-pseudo-classes
+pseudo-elements✅
+pseudo-classes✅
 
 
 animation
