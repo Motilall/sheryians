@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* #test{
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+} */
+
+/* #test{
+    width: 50%;
+    height: 50%;
+    background-color: orangered;
+} */
+
+/* #test{
+    width: 20vw;
+    height: 20vh;
+    background-color: orangered;
+}
+
+#child{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(245, 245, 77);
+} */
+
+/* #test{
+    font-size: 16px;
+    width: 2 rem;
+    height: 2em;
+} */
+
+
+
+#test{
+    max-width: 500px;
+    min-height: 200px;
+    background-color: orangered;
+}
