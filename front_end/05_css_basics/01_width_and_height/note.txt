@@ -1,0 +1,13 @@
+in html and css box means div
+box = div
+
+where ever you see more elements together means it is a div
+(div have width but it don't have hegiht)
+
+if we want a box then
+- make a div in html
+- give height and width in css
+- and then give it a background color 
+
+<h1> -> this is h1 tag
+#h1 -> this is h1 element
