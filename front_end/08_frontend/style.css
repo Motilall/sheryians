@@ -10,13 +10,39 @@ html,body{
 }
 
 #parent{
-    height: 30vw;
-    width: 30vw;
+    min-height: 100%;
+    width: 100%;
     background-color: cyan;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
-#child{
-    height: 50%;
-    width: 50%;
-    background-color: salmon;
+.child{
+    border: solid 2px #fff;
+    height: 150px;
+    width: 150px;
+    background-color: crimson;
+}
+
+
+#child1{
+    height: 100vh;
+    width: 60%;
+    background-color: lightblue;
+}
+
+#child2{
+    height: 100vh;
+    width: 60%;
+    background-color: lightgreen;
+}
+
+@media (max-width: 600px) {
+    #child1{
+        background-color: crimson;
+    }
 }
