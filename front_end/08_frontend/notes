@@ -1,2 +1,12 @@
 vmax -> it wil take the grater value
 means if the height is bigger then it take the value of height or if the width vlaue is bigger than the heigt then it will take the value of width 
+
+when we use flex the items start to flex (it becomes flexiable )
+then we use flex-wrap = the items will not shrink together the will come below (samaj jo bhai 😂)
+
+
+    @media (max-width: 600px){
+        this is for different screen code 
+        means this code will work only when my scree width is or will be less than 600px 
+        most of the mobile screen have width of 600px
+    }
