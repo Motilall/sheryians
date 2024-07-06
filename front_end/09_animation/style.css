@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    border-style: 100%;
+}
+
+#box{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: crimson;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    /* it will stay where the animation ends */
+    animation-iteration-count: infinite;
+    /* it will tell how many times an animation will run */
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move {
+    from{
+        left: 0;
+    }
+    to{
+        left: 100%;
+    }
+}
