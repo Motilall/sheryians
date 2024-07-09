@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <title>Tailwind Css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <div class="main w-full h-screen bg-white font-p['gilroy']">
+        <div class="container relative bg-sky-50 h-screen mx-auto">
+            <div class="navbar flex justify-between items-center w-full py-6 px-4">
+                <h3 class="font-semibold">
+                    neganu.design
+                </h3>
+                <div class="hidden links lg:flex gap-10">
+                    <a class="text-sm" href="#">Work</a>
+                    <a class="text-sm opacity-50" href="#">Services</a>
+                    <a class="text-sm opacity-50" href="#">Contacts</a>
+                    <a class="text-sm opacity-50" href="#">Prices</a>
+                </div>
+                <i class="ri-menu-line lg:hidden"></i>
+            </div>
+            <div class="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full flex flex-col items-center">
+                <div class="image w-24 h-24 lg:h-32 lg:w-32 bg-fuchsia-200 rounded-full flex items-center justify-center">
+                    <img class="w-[80px] lg:w-[110px] object-cover rounded-full" src="https://i.pinimg.com/564x/b4/be/8c/b4be8c60a9c0a4275ee33d8b217922a9.jpg" alt="">
+                </div>
+                <h3 class="font-semibold text-xl lg:text-2xl mt-4 tracking-tighter">Hi, I'm Harshita✋</h3>
+                <h1 class="text-4xl lg:text-5xl leading-none mt-3 w-3/4 tracking-tighter font-semibold text-center">Buliding digital products, brands and experience.</h1>
+                <p class="text-center w-3/4 mt-4 text-sm lg:text-lg lg:opacity-75 font-semibold tracking-tighter">
+                    Hi. I'm Oguz s Building  digital products, brands, and experience. and Visual Development.
+                </p>
+                <button class="px-4 py-2 lg:px-6 lg:py-3 bg-black text-white rounded-full text-sm lg:text-base font-semibold lg:font-medium tracking-tight mt-7">Connect with me</button>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
