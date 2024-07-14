@@ -26,3 +26,12 @@
 // and the vlaue of arr is [1,2,3,4,5]
 // this is problematic because it is taking the value of reference
 // brr is nothing just the arr
+
+// spread
+// var ar = [1,2,3,4,5];
+// var br = [...ar]; // used to copy the value
+
+// truthy and falsy value
+// in javascript every value can be made truthy and falsy, it depends on the type of value
+// if the value is truhy then it will be true and if the value is falsy then it will be false
+// null, undefined, NaN, 0, "", '', document.all, false ---> all these are falsy value
