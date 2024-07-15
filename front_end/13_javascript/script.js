@@ -35,3 +35,6 @@
 // in javascript every value can be made truthy and falsy, it depends on the type of value
 // if the value is truhy then it will be true and if the value is falsy then it will be false
 // null, undefined, NaN, 0, "", '', document.all, false ---> all these are falsy value
+// rest everything is truthy
+
+// foreach loop only works on arrays
