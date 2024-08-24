@@ -38,3 +38,36 @@
 // rest everything is truthy
 
 // foreach loop only works on arrays
+
+// how to loop array
+var arr = [1,2,3,4,5];
+// arr.forEach(function(val){
+//     console.log(val);
+// });
+
+// how to loop an array and do something with each element
+arr.forEach(function(val){
+    console.log(val+1)
+});
+
+
+
+// objects
+
+// to store many similar peoples data we use array []
+// and to store one persons information we use object {} - var obj = {}; or - var obj2 = new Object();
+
+var obj = {
+    name: "Red", 
+    age: 20,
+    email: "red_pearl@gmali.com",
+    contcat: 8239243089
+}
+
+// to access an element we will use '.' eg- obj.name;
+// console.log -> console is an object
+
+
+
+// synchronous code goes line by line
+// in asynchronous the whole is started all-together and the one which is executed first we get that one first 
