@@ -1,0 +1,138 @@
+*{  
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    /* height: 100%; */
+    width: 100%;
+    background-color: rgb(213, 255, 63);
+}
+
+/* nav */
+
+#nav{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#links{
+    display: flex;
+    gap: 90px; 
+}
+
+#links a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+#container{
+    display: flex;
+}
+
+#con-left{
+    padding-left: 20px;
+    width: 50%;
+    /* background-color: red; */
+}
+
+#con-left h1{
+    text-transform: uppercase;
+    font-size: 150px;
+    letter-spacing: -7px;
+    line-height: 130px;
+    font-weight: 900;
+}
+
+#con-right{
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+#con-right p{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 180px;
+}
+
+#img-box{
+    margin-left: 90px;
+    position: absolute;
+    height: 80px;
+    border-radius: 90px;
+    width: 400px;
+    /* background: red; */
+}
+
+#img-box img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+    border-radius: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.im{
+    position: absolute;
+    border-radius: inherit;
+    height: 70px;
+    width: 70px;
+    background-color: #000;
+    border: solid 2px #fff;
+    top: 5px;
+    left: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i{
+    color: #fff;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+#main-img{
+    height: 500px;
+    width: 90%;
+    margin-left: 5%;
+    /* background-color: orangered; */
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-image: url(img.png);
+    position: relative;
+}
+
+#main-img .arrow i{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    top: 0;
+    position: relative;
+    border-radius: 50%;
+    font-size: 100px;
+    background-color: orangered;
+}
