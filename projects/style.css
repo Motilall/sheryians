@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: a;
+    src: url(./Magma-main/jost-variable.ttf);
+}
+
+@font-face {
+    font-family: b;
+    src: url(./Magma-main/KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: c;
+    src: url(./Magma-main/KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: orangered;
+    position: relative;
+}
+
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    height: 10vh;
+    width: 100vw;
+    /* background-color: orangered; */
+}
+
+#page1 #nav img{
+    width: 9%;
+}
+
+#right-nav button{
+    background-color: #0A3CCE;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    font-family: a;
+    font-size: 15px;
+}
+
+#bottom-page1 h1{
+    position: absolute;
+    bottom: 5%;
+}

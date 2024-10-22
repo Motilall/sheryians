@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #111;
+    /* padding: 20px; */
+}
+
+#box1{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    background-color: crimson;
+    border-radius: 10px;
+    /* position: absolute; */
+
+    /* animation-name: anime; */
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+#box2{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    background-color: royalblue;
+    border-radius: 10px;
+    /* position: absolute; */
+}
+#box3{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    /* position: absolute; */
+}
+
+/* 
+animation is just the journy from intial to final position 
+for css animation there are two steps 
+1> to create animation
+2> to apply the css animation 
+*/
+
+@keyframes anime {
+    0%{
+        left: 0;
+        background-color: red;
+    }
+    100%{
+        left: 70%;
+        background-color: blue;
+    }
+}
+
+/*      After and Before           */
+
+
+h1::after{
+    content: 'World';
+}
+
+
+
+/*                     Scroll Trigger                              */
+/* #page1{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(110, 188, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(55, 157, 190);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    background-color: crimson;
+    border-radius: 10px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/*              LOCO MOTIVE                 */
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: lightblue;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(129, 204, 230);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(98, 197, 230);
+}
+
+
+
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    border: 10px;
+}
