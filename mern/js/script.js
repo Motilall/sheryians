@@ -183,3 +183,222 @@ let b = 12;
 //                      3> lexical environment
 
 // lexical environment -> it is the set of rules which will tell us who can acess the function elements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ***************** Mastering Advance JavaScript Concepts ********************************
+
+// highter order functions -> it is a js function which does any one of these 2
+                            // 1> take function as arrguments(parameter)
+                            // 2> return function as result
+                            // 3> both of the above
+// example
+// Higher-order function that takes an operation function as an argument
+// function calculate(num1, num2, operation) {
+    // return operation(num1, num2);
+// }
+// 
+// Basic operation functions
+// function add(a, b) {
+    // return a + b;
+// }
+
+// function subtract(a, b) {
+    // return a - b;
+// }
+
+// Using the calculate function with different operations
+// console.log(calculate(5, 3, add));       // Output: 8
+// console.log(calculate(5, 3, subtract));  // Output: 2
+
+
+
+
+// constructor function -> it is function used to create objects with the similar properties and methods. when we create a function and call with "new" keyword and return an object and to acess the properties we use "this" keyword
+
+// example
+// function person(name, age){
+//     this.name = name;
+//     this.age = age;
+// }
+
+// const person1 = new person("red", 25);
+// const person2 = new  person("black", 22);
+
+// console.log(person1)
+// console.log(person2)
+
+
+// first class funcitons -> functions that are treated like variable 
+// they can use for
+//              1> assigned to variable 
+//              2> passed an arguments to other function
+//              3> returned from other function
+
+// example 
+// function greetUser(name, callback){
+//     console.log("hello" + name + "!");
+//     callback();
+// }
+// function goodbye(){
+//     console.log("goodbye!");
+// }
+// greetUser("red", goodbye)
+
+
+
+// iife(immediately invoked function) -> it is defined and executed immediately after its creation.
+// example   
+// (function() {
+//     console.log("This is an IIFE!");
+// })();
+// the console inside the function is private, so outside of it can not be assiable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// **************     Master Async JavaScript: What it is and How to Use it     ******************
+
+// synchronous -> the next task will start only after the current task is completed. the task are completed one by one serially
+
+// asynchronous -> here the task are started at-a-time together and who-ever task is completed first the result will come first
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// javascript dom manupulation: how to dominate the dom  with javascript
+
+// var a = document.querySelector("h1")
+// console.log(a)
+// -> this is selecting an h1 with "a" variable
+
+
+// a.innerHTML = "Hello World" -> this will change the content of h1
+
+// a.style.color = "orangered" -> this will change the css of h1
