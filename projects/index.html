@@ -6,10 +6,11 @@
     <title>Magma</title>
     <linkhref="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 </head>
 <body>
     <div id="main">
-        <div id="page1">
+        <div data-scroll data-scroll-speed="-5" id="page1">
             <div id="nav">
                 <img src="/Magma-main/Screenshot 2023-05-30 220719.png" alt="">
                 <div id="right-nav">
@@ -22,10 +23,51 @@
                     Experience Real <br>
                     Estate Agility
                 </h1>
+                <div id="bottom-page1-inner">
+                    <h4>
+                        Create a Digital Twin Token (DTT®) of your existing building <br>
+                         and release the potential of Web3
+                    </h4>
+                    <button>
+                        LEARN MORE
+                    </button>
+                </div>
             </div>
             <video src="https://thisismagma.com/wp-content/themes/magma/assets/home/hero/1.mp4?2"  autoplay loop muted></video>
         </div>
+        <div id="page2">
+            <h2>
+                Certify your building as a Digital Twin Token (DTT®)
+            </h2>
+            <h1>
+                The Digital Twin Token is a unique digital asset <br>
+                 backed by property data. Magma combines your <br>
+                  building’s components and systems essential <br>
+                   information into a DTT®.
+            </h1>
+        </div>
+        <div id="page3">
+            <canvas>
+                
+            </canvas>
+        </div>
+        <div id="page4">
+            <h3>
+                Connect the Building's twin to your stakeholders
+            </h3>
+            <h1>
+                Users connect directly to the DTT® without any <br>
+                intermediaries. As Stakeholder, they have the <br>
+                power to upload and verify information that <br>
+                enriches the Digital Twin Token. A Stakeholder's <br>
+                ability to access validated-data to perform tasks <br>
+                depends on their specific role.
+            </h1>
+        </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 </html>
