@@ -402,3 +402,9 @@ let b = 12;
 // a.innerHTML = "Hello World" -> this will change the content of h1
 
 // a.style.color = "orangered" -> this will change the css of h1
+
+// a.addEventListener("click", function(){
+    // function; 
+//})
+
+// difference between .innerHTML and textContent is when we want to change only the text we use .textContent and if we want to change the complete html tag we use .innerHTML 
