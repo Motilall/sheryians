@@ -1,0 +1,21 @@
+BREIFE HISTORY
+there are 3 versions of web
+	web 1 ->  1990(html, css) aka the read only web
+	web 2 -> 2004 (js was mergered to add functionalites) aka user created content
+	web 3 -> decentrilization(built with people, people will give the data and no midlle man e.g. block-chain)
+
+BASICSs OF COMMUNTICATION AND DATA TRANSFER
+packets has 2 components - head(where the data will go) and paylod(what is the message)
+data is transfered through packets to the nearest internet service provider(tower) 
+
+TWO TYPES OF COMMUNICATIION
+wired
+wireless
+
+ip v4, ip v6
+when we connect the device to the internet then we are given the ip address {when we turn off the internet then the ip is gone} aka thcp
+device have mac address, it is the physical address, it used to identify in local area, and it is used by the router
+
+google.com is converted into an ip address
+
+ISP AND DNS
