@@ -1,0 +1,12 @@
+protocols = rules on how things will work on the internet (e.i every compaines, internet-provider will be on the same page)
+
+udp(transmission control protocal) - no need of acknowldgement(no need for the respond), used fec(froward error correction) ,real time connection
+tcp - without real time connection
+
+wire shark - used to crab packets in between of transtion
+http(hyper text transfer protocol) - can be read in packet form. 3 versions, 1.1 - first complete html went to the client,then css, then js,. 2.0 - multi-channel(html, css, js all together)multiplixing, follows tcp . 3.0 - follows udp model, quic model, noo data loss  
+https - encipted form of data, ssl certificate(public key and private key[never shared, stored in the sever]), it has the certificate ssl and tls encryption
+
+proxy - data will go somewhere else first and then go to the destionation but in the process it is noot encipted
+reverse proxy - there will be a third proxy in between of the proxy will tell which data to disclose or not 
+
