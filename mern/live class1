@@ -8,16 +8,26 @@ there are 3 versions of web
 
 BASICSs OF COMMUNTICATION AND DATA TRANSFER
 packets has 2 components - head(where the data will go) and paylod(what is the message)
-data is transfered through packets to the nearest internet service provider(tower) 
+data is transfered through packets(small chunks) to the nearest internet service provider(tower) 
 
 TWO TYPES OF COMMUNICATIION
 wired
 wireless
 
 ip v4, ip v6
-when we connect the device to the internet then we are given the ip address {when we turn off the internet then the ip is gone} aka thcp
+when we connect the device to the internet then we are given the ip address {when we turn off the internet then the ip is gone} aka the
 device have mac address, it is the physical address, it used to identify in local area, and it is used by the router
+
+routers - helps the packets to reach their destination efficiently
 
 google.com is converted into an ip address
 
 ISP AND DNS
+
+
+
+client - request data from server using browser
+server - stores and provides the serves that a client want, e.g. api servers and web-servers
+
+
+
