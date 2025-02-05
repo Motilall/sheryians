@@ -1,0 +1,16 @@
+background: liner-griadant();
+
+position absolute - move the element on the screen freely (given to the child)
+position relative - the child can be on the screen move freely, but only inside the parent
+
+
+cross axis, cloumn - align items
+
+flex-direction - to change the cloumns to row
+
+flex-wrap - it will wrap the elements inside it
+
+
+
+
+
