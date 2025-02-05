@@ -1,0 +1,5 @@
+button:hover, add transition(it is the way in which it transforms);
+transform: translate(move on x and y-axis), skew (thodi si thedi hojati hai, kind of rombus)
+
+3d transform - we will use perspective(AKA z-axis) -> 9:17
+class end -> 9:33
