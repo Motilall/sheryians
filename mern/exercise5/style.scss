@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    margin-top: -20px;
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", serif;
+    background-color: rgb(240, 245, 250);
+    padding-left: 33%;
+    padding-top: 5%;
+}
+
+.contact{
+    padding-left: 30px;
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 12px;
+    line-height: 1.9rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+}
+
+.contact input{
+    padding-left: 10px;
+    margin-right: 2rem;
+    width: 90%;
+    border: 1px solid #0000003f;
+    border-radius: 8px;
+    height: 2rem;
+    margin-bottom: 10px;
+}
+
+
+textarea{
+    width: 90%;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(0, 121, 250);
+    color: #fff;
+    padding: 5px 140px;
+    font-weight: 200;
+    font-size: 1.4rem;
+    text-align: center;
+}
