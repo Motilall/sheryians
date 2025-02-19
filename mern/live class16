@@ -1,0 +1,30 @@
+day 16 
+slice 
+	var str = apple;
+	console.log(slice(0,4)) -> app
+
+template string -> `hi, ${name}`
+
+
+split
+	var str = "hello i am red"
+	let ans = str.split('i') -> out put = ["hello i", "am red"];
+
+replace
+-here the original string is not changed, first a copy is made and 
+changes are made in the coppy
+let str = "hello i am red"
+let ans = str.replace("i")
+
+- to change all we use replaceAll
+
+includes
+str.includes(","); -> it gives the answer in the form of boolean
+
+
+ternary operator -> combination of ? an :
+condition ? (if) : (else)
+12 > 11 ? console.log("true) : console.log("false")
+
+
+
