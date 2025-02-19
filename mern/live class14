@@ -2,3 +2,13 @@ let is declared globally and acessed globally
 var is declared golbally and can be acessed with in the scope 
 {    } -> the code between this braces is called scope
 const is block scoped variable which can not be changed
+
+The defer attribute in a <script> tag is a powerful tool for optimizing webpage loading,
+When a browser encounters a <script> tag with the defer attribute,
+it begins downloading the script in the background while continuing to parse the HTML
+
+an expression is a piece of code that produces a value ( x + 10)
+
+let a = 5;
+console.log(a++);
+console.log(++a);
