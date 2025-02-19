@@ -36,3 +36,7 @@ parseInt
 
 hoisting
 	it is that a variable can be called before without declaring and can olny be used in var not in let
+
+
+null - it does not exist
+undefined - it exist but the value is not deined yet
