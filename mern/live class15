@@ -30,5 +30,9 @@ var num2 = Number(prompt("Enter the number 2: "))
 console.log(num1 + num2) -> this will give a number
 
 ?? parseInt
-?? type casting
-?? hoisting
+type casting -> type conversion
+in details it will be in prompt what ever we write in is converted into the string (includeing numbers) for this we use 
+parseInt
+
+hoisting
+	it is that a variable can be called before without declaring and can olny be used in var not in let
