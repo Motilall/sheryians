@@ -1,0 +1,93 @@
+var arr = [1,2,3,4]
+arr.forEach(function(value){
+    // console.log(value)
+})
+
+// this will run the array and do action for each element
+// you can not use return in foreach
+
+
+
+
+// the map will create a loop and push it to a blank array
+arr.map(function(value){
+    return 20;
+})
+
+
+
+
+// it is simalr as map but it will only return boolean(true or false) -> it the return is true then it will return the value other wise not
+var fil = arr.filter(function(value){
+    // return true;
+    return value > 2;
+})
+// console.log(fil)
+
+
+
+
+
+// 
+var red = arr.reduce(function(accumulator, key){
+    return accumulator + key;
+}, 1)
+
+// console.log(red)
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 10 - 1
+// var i = 10;
+// while(i > 0){
+//     i--;
+//     console.log(i)
+// }
+
+// 12
+// 3 - 30
+// var i = 3;
+// while(i < 31){
+//     i += 2;
+// }
+
+// var sum = 0;
+// for(var i = 1; i < 101; i++){
+//     sum += i;
+// }
+
+// console.log(i)
+
+
+
+
+
+
+// of 
+// var str = "JavaScript";
+// for(var i of str){
+//     console.log(i)
+// }
+
+
+
+
+
+
+// set is a js tool which removes the duplicates but give in objects
+// ... spread oprator -> similar to copy, just spread the values in a new array but not copy
+// var arr2 = [...arr] -> here all te elemetns of arr are scattered not copied -> becasue you can not copy the array because you copy the refrence value not the real value
+
+var arr = [1,1,1,12,2,4,56,7]
+var ans = [...new Set(arr)]
+console.log(ans)
