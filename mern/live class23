@@ -1,0 +1,54 @@
+// find the second largest number
+
+var arr = [1,3,4,623,43,12,64,64, 4,20, 20, 33,33,677,345,77]
+
+// unique 
+var ans = [...new Set(arr)]
+
+
+// sort array descending order
+var newarr = ans.sort(function(a,b){
+    return b - a; // -> descinding order, the real value is not sorted the dublicate is sorted in a new array
+})
+
+// 1st index of array
+// console.log(newarr[1])
+
+
+// or we write ->console.log([...new Set(arr)].sort(function (a,b){
+//    return b - a;
+//})[1]);
+
+
+// var ans = arr.sort((a,b) => b - a) -> in arrow function we do not use braces or return key-word
+
+
+
+
+
+// reverse 
+var arr1 = [1,2,3,4,5,6,7,98, 31243]
+var arr2 = []
+
+for(var i = arr1.length-1; i >= 0; i--){
+    arr2.push(arr1[i]);
+}
+// console.log(arr1)
+// console.log(arr2);
+
+
+
+
+
+
+
+// find the most frequent number
+
+var arr3 = [3, 4, 1, 3, 4, 6, 7];
+let obj = {}
+
+arr3.forEach(function(val){
+    obj[val] === undefined ? obj[val] = 1 : obj[val]++;
+})
+
+console.log(obj)
