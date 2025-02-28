@@ -1,0 +1,64 @@
+
+day 18
+
+
+
+rest parameter
+
+funtion abcd(a,b,c,d...arr){
+consloe.log(a,b,c,d, arr);
+}
+abcd(1,2,3,4,5,6,7);
+// here the function will take parameter for a, b, c, d and the rest will go into arr array
+
+
+
+
+in hoisting the variable are automatically pushed to the top,
+thats why we can call first and then decaler later
+
+
+
+iife -> immedaltly invoked function expression
+(function abcd(){
+	console.log('hey');
+})(); -> the functions which are called immedatly after decalering are called iife
+ the variables are decalerd as private variable
+
+
+
+// hofs -> higher order functions
+a function which returns function or accepts prameter functions
+function abcd(){
+	return function(){
+		console.log("hey");
+	}
+}
+abcd(// call first function)(// call second funtion)
+
+
+
+
+call back funtion -> the parameter which accepts funtion is called a call-back funtion
+
+
+
+
+// first class function -> we can treat functions as values
+
+
+
+// pure function -> a fucntion which do not change the golbl variable funtion
+
+
+// impure function 
+
+// scoping -> {} any code written inside these braces is called scoping 
+// global scope -> any one can acess from any where 
+// local scope -> can be used only inside the braces
+
+
+// closure -> the function which will return a funtion whihc will acess the parent funcion value
+
+
+
