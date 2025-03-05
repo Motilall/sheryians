@@ -9,10 +9,11 @@ arr.forEach(function(value){
 
 
 
-// the map will create a loop and push it to a blank array
+// the map will create a loop and push it to a blank array, it will return a value
 arr.map(function(value){
     return 20;
 })
+
 
 
 
@@ -58,21 +59,28 @@ var red = arr.reduce(function(accumulator, key){
 // 3 - 30
 // var i = 3;
 // while(i < 31){
-//     i += 2;
+//     i += 3;
 // }
+
+
+
+
+
 
 // var sum = 0;
 // for(var i = 1; i < 101; i++){
 //     sum += i;
 // }
 
-// console.log(i)
+// console.log(sum)
 
 
 
 
 
 
+
+// 15
 // of 
 // var str = "JavaScript";
 // for(var i of str){
