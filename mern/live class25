@@ -1,0 +1,87 @@
+// Create a function that takes a callback and executes it after every `n` seconds indefinitely.
+// function re(fn, time){
+//     setInterval(fn, time) -> it will execute the function in a particular time
+// }
+// re(function(){
+//     console.log("hello");
+// }, 2000)
+
+
+
+
+
+
+
+
+
+
+
+
+// Implement a function that returns a function with a preset greeting (Closure).
+// function greet(greeting){
+//     return function(name){
+//         console.log(`${greeting} ${name}`)
+//     }
+// }
+
+
+// let greetingfn = greet("Hello")
+
+// greetingfn("red")
+
+
+
+
+
+
+
+
+
+// Implement a function that takes a callback and only executes it once (HOF + Closure).
+
+// function onlyOnce(cb){
+//     let executed = false;
+//     return function(){
+//         if(!executed){
+//             executed = true;
+//             cb();
+//         }else{
+//             console.log(`already executed once`)
+//         }
+//     }
+// }
+
+// let newfn = onlyOnce(function(){
+//     console.log("red")
+// })
+
+// newfn()
+// newfn()
+// newfn()
+
+
+
+
+
+
+
+
+
+// Implement a function that throttles another function (HOF + Closures).
+
+function throttle(fn, delay){
+    let lastCall = 0;
+    return function(){
+        let current = Date.now();
+        if(current - lastCall >= delay){
+            lastCall = current;
+            fn();
+        }
+    }
+}
+
+let newfn = throttle(function(){
+    console.log(`will run in 3 secs`)
+}, 3000)
+
+newfn()
