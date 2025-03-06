@@ -1,0 +1,86 @@
+// sum of two integers
+// let a = 20, b = 30;
+// console.log(a + b);
+
+// realtion between integer and string 
+// string + string = string (concatination)
+// string + int = string
+// int + int = int (arithmatic)
+// the log has string then it is concatination
+
+// sum and message
+// let a = 10, b = 20;
+// console.log("sum of " + a + " and " + " is " + a+b); -> the ans is 1020
+// the js engine work as it takes two operarands and a operator and concatinate
+// so the first was string + int = string(concatination)
+
+// "sum of 10 " +  " and " + b + " is " + a + b
+// "sum of 10 and" + b + " is " + a + b
+// "sum of 10 and 20 " + " is " + a + b
+// "sum of 10 and 20 is " + a + b
+// "sum of 10 and 20 is  10" + b
+// "sum of 10 and 20 is  1020"
+
+// so the correct way is, because the brackets are the first priority
+// console.log("sum of " + a + " and " + b + " is " + (a + b));
+
+
+
+// type corsion
+// console.log(1+1);
+// console.log(1 + "1")  concatination
+// the " + " has two works (1) addition and (2) concatination
+// console.log(1-1)
+// console.log(1-"1") -> the ans will be zero because the minus has only one work and that is to minus
+// console.log(5 * "2") -> maza aagaya
+
+
+
+
+// accept and print the answer
+// till now we were taking hard-code value
+// accept -> means user input
+
+// let age = prompt("enter a age")
+// console.log(age);
+// in prompt everything is in object even numbers 
+// and to convert it in to numbers
+
+// let agee = Number(prompt("enter a age"))
+// console.log(agee)
+
+
+
+
+// swap two variables via 3 methods (total 5 methods)
+let a = 10, b = 20;
+
+// with extra vaiable
+// let temp = a;
+// a = b;
+// b + temp;
+
+// with mathmatics
+// a = a + b;
+// b = a - b;
+// a = a - b;
+
+// js trick(destructor)
+// [a, b] = [b, a]
+
+
+
+
+
+
+
+
+
+
+// operators + - 
+// console.log(4%10); -> and 4
+// console.log(10/3); -> int / int = float
+// console.log(Math.floor(10/3));
+
+// logical 
+// uinary
