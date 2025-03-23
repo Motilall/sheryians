@@ -1,0 +1,73 @@
+// day 29  -> mastering conditional statements in javascript
+
+// let year = Number(prompt("Enter a year"))
+// let isLeap = false;
+
+// if(year%4 == 0){
+//     if(year%100 == 0){
+//         if(year%400 == 0) isLeap = true;
+//         else isLeap = false;
+//     }else{
+//         isLeap = true
+//     }
+// }
+// console.log(isLeap? "leap year" : "not a leap year")
+
+// if((year%4 == 0 && year%100 != 0)){
+//     console.log("leap year");
+// }else if(year%400 == 0){
+//     console.log("leap year")
+// }else console.log("not a leap year")
+
+
+
+
+// let amount = Number(prompt("Enter a number"))
+// let dis = 0
+
+// if(amount>= 0 && amount<= 5000){
+//     console.log(amount)
+// }else if(amount> 5000 && amount<= 7000){
+//     console.log(amount - (5*amount)/100)
+// }else if(amount> 7000 && amount<= 9000){
+//     console.log(amount - (10*amount)/100)
+// }else if(amount> 9000){
+//     console.log(amount - (20*amount)/100)
+// }else{
+//     console.log("invalid input")
+// }
+
+// if(amount>= 0 && amount<= 5000) dis = 0
+// else if(amount> 5000 && amount<= 7000)dis = 5
+// else if(amount> 7000 && amount<= 9000)dis = 10
+// else if(amount> 9000)dis = 20
+// else console.log("invalid input")
+
+// console.log(amount - (dis*amount)/100)
+
+
+
+
+// let unit = Number(prompt("enter a unit"))
+// let amount = 0;
+
+// if(unit>0 && unit<=100){
+//     amount = unit * 4.2;
+// }else if(unit>100 && unit<=200){
+//     amount = (100 * 4.2) + (unit-100)*6
+// }else if(unit>200 && unit<=400){
+//     amount = (100 * 4.2) + (100*6) + (unit - 200)*8
+// }else if(unit>400){
+//     amount = (100 * 4.2) + (100*6) + (200)*8 + (unit-400) * 13
+// }
+// console.log(amount)
+
+
+
+
+// to do repeated taskes we use loops and recursion
+// there are 2 types of loop -> entery control loops(for and while) and exit control loops(do while)
+
+// for(;;){
+//     console.log(`don't run it`); -> infinite loop
+// }
