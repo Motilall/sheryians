@@ -1,0 +1,75 @@
+// console.log(Math.ceil(10.8)); -> it will round up the number and give an upper value
+
+// console.log(Math.floor(10.8)); -> it will round up the number and give a lower value
+
+// console.log(Math.round(3.4)); -> it will estimate the number, greater than .5 then ceil and lower than .5 then it will floor the value
+
+// console.log(Math.abs(-10)) -> this will convert the negative values to positive value
+
+// console.log(Math.trunc(1.3353)); -> it will remove all the numbers after the point
+
+// console.log(Math.pow(5, 2)); -> power
+
+// console.log(Math.sqrt(36)); -> squre root
+
+// console.log(Math.cbrt(8)); -> cube root
+
+// console.log(Math.max(10,32,435)); -> returns biggest number
+
+// console.log(Math.min(23,335,223)); -> returns smallest number
+
+// console.log(Math.random()); -> returns random number between 0 to 9
+
+// let a = 234.2948392;
+// console.log(a.toFixed(2)); -> it will return 2 numbers after the point decimal
+
+
+
+
+
+// q1>  calculate the compound intrest
+// let p = Number(prompt("Enter principle amount"))
+// let r = Number(prompt("Enter a rate"))
+// let t = Number(prompt("Enter a time"))
+
+// console.log((p*Math.pow(1+r/100, t)) - p);
+
+// q2> generate OTP
+// console.log(Math.floor(Math.random()*9000 + 1000));
+
+// q3> area of trinagle by heron's formula
+// let a = Number(prompt("Enter first number"))
+// let b = Number(prompt("Enter second number"))
+// let c = Number(prompt("Enter third number"))
+
+// if(a+b <= c || a+c <= b || c+b <= a){
+//     console.log(`not possible`);
+// }else{
+//     let s = (a+b+c)/2
+//     console.log(Math.sqrt(s*(s-a)*(s-b)*(s-c)))
+// }
+
+// circumference of circle
+// let r = Number(prompt("Enter a number"))
+// console.log(2 * Math.PI);
+
+// for to take input in terminal we use the library -> prompt sync
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if-else
+// q1 -> accept two numbers and print the greatest between them
+// let a = Number(prompt("Enter a number "))
+// let b = Number(prompt("Enter a number "))
+// if(a>b)console.log(`${a} is greatest`)
+//     elseconsole.log(`${b} is greatest`)
