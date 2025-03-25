@@ -71,3 +71,94 @@
 // for(;;){
 //     console.log(`don't run it`); -> infinite loop
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+q3
+// function calculateSalary(gender, yos, qualification) {
+//     let salary;
+    
+//     if (gender == "Male") {
+//         if (yos >= 10) {
+//             if (qualification == "post-graduate") {
+//                 salary = 15000;
+//             } else {
+//                 salary = 10000;
+//             }
+//         } else {
+//             if (qualification == "post-graduate") {
+//                 salary = 10000;
+//             } else {
+//                 salary = 7000;
+//             }
+//         }
+//     }
+
+//     if (gender == "Female") {
+//         if (yos >= 10) {
+//             if (qualification == "post-graduate") {
+//                 salary = 12000;
+//             } else {
+//                 salary = 9000;
+//             }
+//         } else {
+//             if (qualification == "post-graduate") {
+//                 salary = 10000;
+//             } else {
+//                 salary = 6000;
+//             }
+//         }
+//     }
+
+//     return salary;
+// }
+
+// console.log(calculateSalary("Male", 12, "post-graduate"));
+// console.log(calculateSalary("Female", 5, "graduate")); 
+
+
+
+
+
+q2
+// function getMovieRating(rating) {
+//     if (rating >= 0.0 && rating <= 2.0) {
+//         return `Flop`;
+//     } else if (rating >= 2.1 && rating <= 3.4) {
+//         return `Semi-hit`;
+//     } else if (rating >= 3.5 && rating <= 4.5) {
+//         return `Hit`;
+//     } else if (rating >= 4.6 && rating <= 5.0) {
+//         return `Super-hit`;
+//     } else {
+//         return `Invalid input`;
+//     }
+// }
+
+
+// console.log(getMovieRating(3.8));
+// console.log(getMovieRating(4.9));
+// console.log(getMovieRating(-1));
+
