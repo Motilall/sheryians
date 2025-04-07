@@ -1,0 +1,69 @@
+// whenever the itraion is given there we use for loop and where the itration not given then we use there while loop
+
+
+// sum of digits
+// let n = Number(prompt(`Enter a number`))
+// let sum = 0;
+// while(n > 0){
+//     let rem = n % 10;
+//     sum = sum  + rem;
+//     n = Math.floor(n/10)
+// }
+// console.log(sum)
+
+// reverse of a number
+// let n = Number(prompt(`enter a number`))
+// let rev = 0;
+// while(n > 0){
+//     let rem = n%10;
+//     rev = (rev * 10) + rem;
+//     n = Math.floor(n/10)
+// }
+// console.log(rev)
+
+
+// strong number
+
+
+
+
+
+// automorphic number
+// let n = Number(prompt(`enter a number`))
+// let copy = n;
+// let sq = n * n;
+// let count = 0;
+// while(n>0){
+//     count++;
+//     n = Math.floor(n/10)
+// }
+
+// if(sq%Math.pow(10, count) == copy) console.log(`Automorphic Number`)
+// else console.log(`no autos`)
+
+
+// switch case
+// let n = Number(prompt(`Enter a number`))
+// switch(n){
+//     case 1: {
+//         console.log(`monday`)
+//         break;
+//     }
+//     case 2: {
+//         console.log(`tuesday`)
+//         break;
+//     }
+//     case 3: {
+//         console.log(`wednesday`)
+//         break;
+//     }
+//     case 4: {
+//         console.log(`thursday`)
+//         break;
+//     }
+//     case 5: {
+//         console.log(`friday`)
+//         break;
+//     }
+//     default: console.log(`gand maraoo!!`)
+// }
