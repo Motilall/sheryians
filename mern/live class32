@@ -1,0 +1,57 @@
+// do while
+
+// repeat hello
+// let userInput;
+// do{
+//     console.log(`namaste duniya`)
+//     userInput = prompt(`do u want to continue`)
+// }while(userInput === `yes`)
+
+
+// random numbers till 100 
+// console.log(Math.random()*100 + 1)
+
+// guess the number
+// let com = Math.floor(Math.random() * 100) + 1
+// let userInput;
+// do{
+//     userInput = Number(prompt(`guess the number in b/w 1 to 1000`))
+//     if(isNaN(user) || userInput < 0 || userInput > 100){
+//         console.log(`please enter valid numbre`)
+//         continue
+//     }
+//     if(userInput > com)console.log(`too high, try again`)
+//     else if(userInput < com) console.log(`too low, try again`)
+//     else console.log(`congrats🎉 and the number was` + com)
+// }while(userInput != com)
+
+
+
+
+// sasta calculator
+// do{
+//     let num1 = Number(`Enter a first nubmer`)
+//     let num2 = Number(`Enter a second number`)
+//     let operator = prompt(`Enter a valid operator`)
+
+//     switch(operator){
+//         case '+': console.log(`result ${num1+num2}`)
+//         break;
+
+//         case '-': console.log(`result ${num1-num2}`)
+//         break;
+
+//         case '*': console.log(`result ${num1*num2}`)
+//         break;
+
+//         case '/': if(num2 !== 0) console.log(`result ${num1/num2}`)
+//             else console.log(`please enter a valid number`)
+//         break;
+
+//         case '%': console.log(`result ${num1%num2}`)
+//         break;
+
+//         default: console.log(`please enter a valid operator`)
+//     }
+//     let userInput = prompt(`kya aap dubara chalana chahte hai? yes/no`).toLowerCase()
+// }while(userInput == "yes")
