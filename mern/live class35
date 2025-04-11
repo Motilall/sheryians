@@ -1,0 +1,93 @@
+
+// live class 35
+
+
+
+
+
+// strong number
+// let prompt = require("prompt-sync")()
+// let n = Number(prompt("Enter a number"))
+// let copy = n;
+// let ans = 0;
+// while(n > 0){
+//     let digit = n % 10;
+//     let fact = 1;
+//     for(let i = 1; i <= digit; i++){
+//         fact *= i;
+//     }
+//     ans += fact;
+//     n = Math.floor(n/10)
+// }
+
+// if(copy == ans) console.log(`Strong number`)
+// else console.log(`It is not a strong number`)
+
+
+
+
+
+// array
+// let arr = [10, 20, 30, 40, 50]
+// arr.push(100) -> add the element at last
+// arr.unshift(101) -> add the element at first
+// arr.pop() -> remove from the last
+// arr.shift() -> remove from the first
+// console.log(arr.length) -> size of the array
+// console.log(arr[2]) -> index of 3rd element
+// arr[2] = 7 -> replax 3rd index value
+// arr [10] = 100;
+// console.log(arr)
+
+// let arr = new Array(4)
+// arr [0] = 10;
+// arr [1] = 20;
+// arr [2] = 30;
+// arr [3] = 40;
+// arr [5] = 50;
+// console.log(arr)
+// in js we don't have static array
+// we have dynaminc array
+
+
+
+// take input from user
+// let prompt = require("prompt-sync")()
+// let size = Number(prompt(`Enter a number array size: `))
+// let arr = new Array(size)
+// for(let i = 0; i < arr.length; i++){
+//     arr[i] = Number(prompt(`Enter element: `))
+// }
+// console.log(arr)
+
+
+// sum of arrays elements
+// let prompt = require("prompt-sync")()
+// let size = Number(prompt(`Enter a number array size: `))
+// let arr = new Array(size)
+// let sum = 0;
+// for(let i = 0; i < arr.length; i++){
+//     arr[i] = Number(prompt(`Enter element: `))
+//     sum += arr[i]
+// }
+// console.log(sum)
+
+
+
+// max element from the array
+let prompt = require("prompt-sync")()
+let size = Number(prompt(`Enter a number array size: `))
+let arr = new Array(size)
+
+for(let i = 0; i < size; i++){
+    arr[i] = Number(prompt(`Enter element ${i + 1}: `));
+    }
+
+    let max = arr[0]
+
+    for(let i = 1; i < size; i++){
+        if(arr[i] > max){
+            max = arr[i]
+        }
+    }
+console.log(max)
