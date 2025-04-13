@@ -1,0 +1,109 @@
+
+// day 37
+// mastering the DOM(document object model) manipulation
+
+// dom has 4 pillers
+//          -> selection of an element
+//                 var h1 = document.querySelector('h1')
+//          -> changing the html
+//                 h1.innerHTML = 'Vartmaan'
+//          -> changing the css
+//                 h1.style.color = "orangered"
+//          -> event listener
+//                 h1.addEventListener('click', function(){
+//                     console.log('hey guys')
+//                     h1.style.color = 'yellow'
+//                 })
+
+
+// var box = document.getElementById('box')
+// box.textContent = '<h1>changed</h1>'
+// box.innerHTML = '<h1>changed</h1>'
+// the main difference is that the innnerHTML changes the tage formate, but the textContent writes the complete same
+
+
+// function changeBox(){
+//     console.log('function running...')
+//     box.innerHTML = 'changed'
+//     box.style.backgroundColor = 'pink'
+// }
+
+
+
+// var button = document.querySelector('button')
+// var box = document.querySelector('#box')
+
+// button.addEventListener('click', changeBox)
+
+var btn = document.querySelector('button')
+var h5 = document.querySelector('h5')
+
+var flag = 0;
+
+btn.addEventListener('click', function(){
+    if(flag == 0){
+        h5.innerHTML = 'Friends'
+        h5.style.color = 'Green'
+        btn.innerHTML = 'Remove Friend'
+        console.log('friend done')
+        flag = 1;
+    }else{
+        h5.innerHTML = 'strianger'
+        h5.style.color = 'Red'
+        btn.innerHTML = 'add Friend'
+        console.log('TUT gai')
+        flag = 0;
+    }
+})
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #card{
+            background-color: #fff;
+            padding: 20px 40px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        #box{
+            height: 200px;
+            width: 200px;
+            background-color: cadetblue;
+        }
+
+        h5{
+            color: red;
+        }
+        button{
+            padding: 5px 15px;
+            margin-top: 5px;
+            color: #000;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>
+        Hello
+    </h1>
+
+    <div id="box"></div>
+    <button>Change</button> -->
+
+    <div id="card">
+        <h2>lalit varma</h2>
+        <h5>Stranger</h5>
+        <button>Add friend</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
