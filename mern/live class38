@@ -1,0 +1,134 @@
+// day 38
+// var btn  = document.querySelector('button')
+// var box = document.querySelector('#box')
+
+// btn.addEventListener('click', function(){
+//     var c1 = Math.floor(Math.random()*256)
+//     var c2 = Math.floor(Math.random()*256)
+//     var c3 = Math.floor(Math.random()*256)
+
+//     box.style.backgroundColor = `rgb(${c1}, ${c2}, ${c3})`
+//     console.log(c1, c2, c3)
+// })
+
+
+
+// let arr = ['CSK', 'RCB', 'KKR', 'MI', 'LSG', 'PBKS', 'GT', 'DC', 'RR', 'SRH']
+
+// let btn = document.querySelector('button')
+// let h1 = document.querySelector('h1')
+
+// btn.addEventListener('click', function(){
+//     let num = Math.floor(Math.random()*arr.length)
+//     let winner = arr[num]
+//     h1.innerHTML = winner;
+// })
+
+
+let arr = [
+    {
+        team: 'CSK',
+        primay: 'yellow',
+        secondary: 'green'
+    }, 
+    {
+        team: 'RCB',
+        primay: 'red',
+        secondary: 'black'
+    }, 
+    {
+        team: 'MI',
+        primay: 'blue',
+        secondary: 'gold'
+    }, 
+    {
+        team: 'KKR',
+        primay: 'purple',
+        secondary: 'gold'
+    }, 
+    {
+        team: 'SRH',
+        primay: 'orange',
+        secondary: 'black'
+    }
+]
+
+var btn = document.querySelector('button')
+var h1 = document.querySelector('h1')
+
+btn.addEventListener('click', function(){
+    var num = Math.floor(Math.random()*arr.length)
+    var winner = arr[num]
+    console.log(winner)
+
+    h1.innerHTML = winner.team
+    h1.style.backgroundColor = winner.primay
+    h1.style.color = winner.secondary
+})
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+            text-align: center;
+        }
+        #box{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(75, 209, 227);
+            border-radius: 50%;
+            border: 6px solid white;
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 20px;
+            background-color: lightseagreen;
+            font-weight: 600;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:active{
+            scale: 0.95;
+        }
+        h1{
+            padding: 20px 40px;
+            background-color: gainsboro;
+            border-radius: 5px;
+            margin: 30px 0;
+            font-size: 100px;
+            letter-spacing: 5px;
+        }
+
+        h5{
+            font-size: 40px;
+            color: #fff;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="box"></div>
+    <button>change</button> -->
+
+
+
+    <h5>
+        Who will be the winner of IPL 2025
+    </h5>
+    <h1>****</h1>
+    <button>Guess the winner </button>
+    <script src="script.js"></script>
+</body>
+</html>
