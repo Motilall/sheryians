@@ -1,0 +1,23 @@
+// day 39
+// callstack has 2 parts - memory creation and code execution
+
+// js is a syncronous language - because it executes line by line
+
+// setTimeout -> delay
+// console.log('hello 1')
+// setTimeout(() => {
+//     console.log('wow')
+// }, 5000);
+// the 2nd code will run after 5s
+
+
+
+// setInterval - in every time
+// setInterval(() => {
+//     console.log('hello')
+// }, 3000);
+// this code will run in every 3s
+// it runs till infinite
+
+
+// clearInterval() -> this will stop the setInterval
