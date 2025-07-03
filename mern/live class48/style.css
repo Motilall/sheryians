@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #000;
+    display: flex;
+}
+
+button{
+    color: #000;
+
+    height: 20px;
+    width: 70px;
+    font-size: 10px;
+}
+
+.dark{
+    color: #B6B09F;
+    background-color: #181C14;
+}
+
+.light{
+    background-color: #ECDFCC;
+    color: #EAFAEA;
+}
