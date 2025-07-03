@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    height: 350px;
+}
+
+
+
+.card_bottom{
+    /* background-color: #A8DF8E; */
+    margin-top: 20px;
+    height: 150px;
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+}
+
+.card_bottom_right{
+    height: 100%;
+    /* background-color: #FFE5E5; */
+    text-align: right;
+    padding-right: 0;
+    /* color: rgba(0, 0, 0, 0.7); */
+}
+
+.card_bottom_left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 10px;
+}
+
+.card_bottom_left_location{
+    gap: 10px;
+    display: flex;
+}
+
+.card_bottom_left_email{
+    gap: 10px;
+    display: flex;
+}
+
+.card_bottom_left_phone{
+    gap: 10px;
+    display: flex;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    position: relative;
+    /* padding-top: 40px; */
+}
+
+h4{
+    font-weight: 500;
+}
+
+button{
+    background-color: royalblue;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
