@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body{
+            height: 100%;
+            width: 100%;
+        }
+
+        #main{
+            height: 100%;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        h1{
+            padding-top: -120px;
+            /* background-color: red; */
+        }
+
+        #buttons{
+            /* background-color: red; */
+            /* margin-top: -80px; */
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            gap: 20px;
+        }
+
+        button{
+            height: 40px;
+            width: 80px;
+            border-radius: 8px;
+            border-style: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="main">
+        <h1 id="output">0</h1>
+        <div id="buttons">
+            <button id="inc">Increase</button>
+            <button id="dec">Decrease</button>
+            <button id="re">Reset</button>
+        </div>
+    </div>
+
+    <script>
+        let num = 0;
+
+        const output = document.getElementById("output")
+        const inc = document.getElementById("inc")
+        const dec = document.getElementById("dec")
+        const re = document.getElementById("re")
+
+        inc.addEventListener('click', function(){
+            num++;
+            output.textContent = num;
+        })
+
+        dec.addEventListener('click', function(){
+            num--;
+            output.textContent = num;
+        })
+        re.addEventListener('click', function(){
+            num = 0;
+            output.textContent = num
+        })
+
+    </script>
+</body>
+</html>

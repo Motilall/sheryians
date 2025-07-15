@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changes on Cliking the button</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body{
+            height: 100%;
+            width: 100%;
+        }
+
+        #main{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            color: rgb(182, 227, 93);
+        }
+
+        button{
+            height: 40px;
+            width: 80px;
+            border-radius: 8px;
+            border-style: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="main">
+        <button id="btn">Click</button>
+    </div>
+
+    <script>
+        const btn = document.getElementById("btn");
+        btn.addEventListener('click', function(){
+            const colors = ['orangered', 'rgb(119, 224, 119)', 'rgb(119, 224, 206)','rgb(182, 227, 93)']
+            const randomIndex = Math.floor(Math.random() * colors.length)
+            document.body.style.backgroundColor = colors[randomIndex]
+        })
+    </script>
+</body>
+</html>

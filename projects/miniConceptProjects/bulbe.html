@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulbe</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body{
+            height: 100%;
+            width: 100%;
+        }
+
+        #main{
+            height: 100%;
+            width: 100%;
+            display: flex;
+        }
+
+        #bulbe{
+            height: 200px;
+            width: 200px;
+            /* background-color: ; */
+            border-radius: 50%;
+            transition: background-color 0.9s;
+        }
+
+        .on{
+            background-color: rgb(255, 255, 0);
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="main">
+        <div id="bulbe"></div>
+        <div id="buttons">
+            <button id="toggle">Turn On</button>
+        </div>
+    </div>
+
+    <script>
+        let isOn = false;
+        const bulbe = document.getElementById("bulbe")
+        const on = document.getElementById("toggle")
+
+        on.addEventListener('click', function(){
+            if(isOn){
+                bulbe.classList.add("on")
+                on.textContent = "Turn Off"
+            }else{
+                bulbe.classList.remove("on")
+                on.textContent = "Turn On"
+            }
+            isOn = !isOn;
+        })
+    </script>
+</body>
+</html>
