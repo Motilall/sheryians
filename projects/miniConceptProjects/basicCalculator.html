@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body{
+            height: 100%;
+            width: 100%;
+            background-color: rgb(244, 242, 216);
+        }
+
+        #main{
+            height: 100%;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        #calc{
+            font-size: large;
+            border-style: none;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="main">
+        <input type="text" id="calc" placeholder="type: 5 + 3">
+        <!-- <div id="buttons">
+            <div id="add">+</div>
+            <div id="minus">-</div>
+            <div id="multi">*</div>
+            <div id="divide">/</div>
+        </div> -->
+    </div>
+
+
+    <script>
+        const calu = document.getElementById("calc")
+
+        calu.addEventListener('keydown', function(e){
+            if(e.key === "Enter"){
+                try{
+                    const input = calc.value;
+                    const result = new Function('return ' + input)();
+                    calc.value = result;
+                } catch {
+                    calc.value = "Invalid Expression"
+                }
+            }
+        })
+    </script>
+</body>
+</html>
