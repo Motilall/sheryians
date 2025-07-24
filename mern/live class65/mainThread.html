@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blocking Main Thread</title>
+</head>
+<body>
+    <button id="blockButton">Block Main Thread (5 seconds)</button>
+    <button id="clickButton">Click Me!</button>
+    <p id="status">Status: Waiting</p>
+
+    <script>
+        const blockButton = document.getElementById("blockButton");
+        const clickButton = document.getElementById("clickButton");
+        const status = document.getElementById("status");
+
+        blockButton.addEventListener('click', ()=> {
+            status.textContent = "Blocking...";
+            console.log("Blocking start....")
+
+            const startTime = Date.now();
+            while (Date.now() < startTime + 5000){
+                // just keep busy the main thread for 5 seconds
+            }
+
+            status.textContent = "Unblocked"
+            console.log("Blocking ends.")
+        })
+
+        clickButton.addEventListener("click", ()=>{
+            alert("Button clicked! UI is responsive.")
+        })
+    </script>
+</body>
+</html>
