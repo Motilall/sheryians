@@ -1,0 +1,14 @@
+in chrome there is v8 engine it's only work is to run the js code
+then Ryan Dahl took that v8 engine outside the browser to run js which became as nodejs
+
+1.37.00
+
+const http = require('http')
+
+const server = http.createServer((req, res) =>{
+	res.end("Hello World")
+})
+
+server.listen(3000, ()=>{
+	console.log("Server is running")
+})
