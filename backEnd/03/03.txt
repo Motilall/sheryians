@@ -1,0 +1,22 @@
+we use postman to develop api
+postman server program -> 17.30
+
+- npm init -y -> create package.json
+- npm i express -> installs node_modules for express
+- node server.js -> to run the server
+- http://localhost:3000/home  -> on postman use it on get api response
+- npx nodemon server.js -> after this we dont have to restart the server againa and     again after adding a new route -> it watches the server continuesly watches what  changes are made
+- we write the request first then at last we run the server 30.45
+- npx has a super power that it can run packages without installing locally
+
+
+- api -> it use to communicate between two applications
+- rest api -> it is some rules to communicate
+        get - to get data from the server
+        post - to send new data to the server
+        patch - to update data on the server
+        delet - to remove data from the server
+
+
+
+45.00
